@@ -1,0 +1,3 @@
+artem_blog_homepage:
+    path:     /
+    defaults: { _controller: artemBlogBundle:Default:index }
