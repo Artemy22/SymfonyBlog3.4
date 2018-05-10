@@ -1,0 +1,4 @@
+services:
+#    artem_blog.example:
+#        class: artem\BlogBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
