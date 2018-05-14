@@ -1,4 +1,4 @@
-welcome ept.
+Welcome ept.
 
 1. php bin/console server:start for use application
 2. using browser go to Server listening on http://.........../post
