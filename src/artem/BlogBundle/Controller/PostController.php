@@ -39,8 +39,8 @@ class PostController extends Controller
 
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager();
-            $em->persist($post);
-            $em->flush();
+            $em->persist($post); // like git commit
+            $em->flush(); // like git push
 
             return $this->redirectToRoute('post_show', array('id' => $post->getId()));
         }
